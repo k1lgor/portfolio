@@ -8,12 +8,19 @@
               type="text"
               class="form-control form-control-lg"
               placeholder="Name"
+              v-model="inputName"
             />
-            <input type="email" class="form-control mt-3" placeholder="Email" />
+            <input
+              type="email"
+              class="form-control mt-3"
+              placeholder="Email"
+              v-model="inputEmail"
+            />
             <input
               type="text"
               class="form-control mt-3"
               placeholder="Subject"
+              v-model="inputSubject"
             />
             <div class="mb-3 mt-3">
               <textarea
@@ -22,10 +29,14 @@
                 id="comment"
                 name="text"
                 placeholder="Project Details"
-              ></textarea>
+                v-model="inputDetails"
+              >
+              </textarea>
             </div>
           </form>
-          <button type="button" class="btn btn-success mt-3">Contact Me</button>
+          <button type="submit" class="btn btn-success mt-3" @click="contactMe">
+            Contact Me
+          </button>
           <div class="social-icons mt-4">
             <a
               href="https://www.linkedin.com/in/plamen-ivanov-33a851226/"
@@ -44,3 +55,25 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      inputName: "",
+      inputEmail: "",
+      inputSubject: "",
+      inputDetails: "",
+    };
+  },
+  methods: {
+    contactMe() {
+      alert("Thank you for contacting me! ^_^");
+      this.inputName = "";
+      this.inputEmail = "";
+      this.inputSubject = "";
+      this.inputDetails = "";
+    },
+  },
+};
+</script>

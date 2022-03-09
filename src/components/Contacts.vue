@@ -3,24 +3,32 @@
     <div class="container mt-4">
       <div class="row mt-5">
         <div class="col-lg-6">
-          <form netlify action="https://formspree.io/f/xbjwyqyd" method="POST">
+          <form
+            name="contact"
+            netlify
+            action="https://formspree.io/f/xbjwyqyd"
+            method="POST"
+          >
             <input
               type="text"
+              name="name"
               class="form-control form-control-lg"
               placeholder="Name"
-              v-model="inputName"
+              required
             />
             <input
               type="email"
+              name="email"
               class="form-control mt-3"
               placeholder="Email"
-              v-model="inputEmail"
+              required
             />
             <input
               type="text"
+              name="subject"
               class="form-control mt-3"
               placeholder="Subject"
-              v-model="inputSubject"
+              required
             />
             <div class="mb-3 mt-3">
               <textarea
@@ -29,14 +37,14 @@
                 id="comment"
                 name="text"
                 placeholder="Project Details"
-                v-model="inputDetails"
+                required
               >
               </textarea>
             </div>
+            <button type="submit" class="btn btn-success mt-3">
+              Contact Me
+            </button>
           </form>
-          <button type="submit" class="btn btn-success mt-3" @click="contactMe">
-            Contact Me
-          </button>
           <div class="social-icons mt-4">
             <a
               href="https://www.linkedin.com/in/plamen-ivanov-33a851226/"
@@ -55,25 +63,3 @@
     </div>
   </section>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      inputName: "",
-      inputEmail: "",
-      inputSubject: "",
-      inputDetails: "",
-    };
-  },
-  methods: {
-    contactMe() {
-      alert("Thank you for contacting me! ^_^");
-      this.inputName = "";
-      this.inputEmail = "";
-      this.inputSubject = "";
-      this.inputDetails = "";
-    },
-  },
-};
-</script>

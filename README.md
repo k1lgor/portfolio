@@ -2,11 +2,13 @@
 
 > A Vue.js project
 
+https://plamens-portfolio.netlify.app
+
 ![gif](./overall.gif)
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 npm install @codersrank/summary

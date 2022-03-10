@@ -15,7 +15,7 @@
                                 <li>Name: Plamen Ivanov</li>
                                 <li>Location: Varna, Bulgaria</li>
                                 <li>
-                                    Occupation: Software Development Trainee
+                                    Occupation: Python Student
                                 </li>
                             </ul>
                         </div>

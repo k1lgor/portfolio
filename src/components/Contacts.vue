@@ -45,6 +45,12 @@
               Contact Me
             </button>
           </form>
+          <a
+            href="https://drive.google.com/file/d/1e4E0Bb_TkxQ9taT0UZOjlOd7pSRpNZoq/view?usp=sharing"
+            target="_blank"
+          >
+            <button class="btn btn-success mt-3">My CV</button>
+          </a>
           <div class="social-icons mt-4">
             <a
               href="https://www.linkedin.com/in/plamen-ivanov-33a851226/"

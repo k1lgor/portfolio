@@ -78,6 +78,10 @@
                 src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D"
                 alt="vuejs"
               />
+              <img
+                src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white"
+                alt="docker"
+              />
             </div>
           </div>
           <div class="d-flex justify-content-center">
@@ -125,6 +129,32 @@
                       href="https://github.com/k1lgor/wifi-dos"
                       class="btn btn-success"
                       >GitHub</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mt-4 m-4">
+              <div class="card portfolio-content">
+                <img
+                  class="card-img-top"
+                  src="../images/manutd.gif"
+                  alt="Man Utd stats"
+                  style="width: 100%"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Man Utd stats</h4>
+                  <p class="card-text">Statistics and fixtures</p>
+                  <div class="text-center">
+                    <a
+                      href="https://github.com/k1lgor/statistics"
+                      class="btn btn-success"
+                      >GitHub</a
+                    >
+                    <a
+                      href="https://manutd-stats.netlify.app"
+                      class="btn btn-success"
+                      >Link</a
                     >
                   </div>
                 </div>

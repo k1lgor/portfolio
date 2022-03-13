@@ -160,6 +160,27 @@
                 </div>
               </div>
             </div>
+            <div class="col-lg-4 mt-4 m-4">
+              <div class="card portfolio-content">
+                <img
+                  class="card-img-top"
+                  src="../images/distros.gif"
+                  alt="Universal update"
+                  style="width: 100%"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Update script</h4>
+                  <p class="card-text">Universal update for major distros</p>
+                  <div class="text-center">
+                    <a
+                      href="https://github.com/k1lgor/linux-update"
+                      class="btn btn-success"
+                      >GitHub</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

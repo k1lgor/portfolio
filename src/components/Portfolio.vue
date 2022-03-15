@@ -181,6 +181,32 @@
                 </div>
               </div>
             </div>
+            <div class="col-lg-4 mt-4 m-4">
+              <div class="card portfolio-content">
+                <img
+                  class="card-img-top"
+                  src="../images/planets.gif"
+                  alt="Planets"
+                  style="width: 100%"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Planets</h4>
+                  <p class="card-text">A simple NuxtJS project</p>
+                  <div class="text-center">
+                    <a
+                      href="https://github.com/k1lgor/nuxtjs-project"
+                      class="btn btn-success"
+                      >GitHub</a
+                    >
+                    <a
+                      href="https://planets-nuxtjs.netlify.app"
+                      class="btn btn-success"
+                      >Link</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

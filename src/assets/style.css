@@ -58,6 +58,8 @@ body {
 }
 .portfolio {
   background: url("../images/portfolio.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .contacts {
   background: url("../images/contacts.jpeg");

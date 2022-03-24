@@ -28,6 +28,14 @@
           >Portfolio
         </router-link>
         <router-link
+          :to="{ name: 'certificates' }"
+          active-class="active"
+          tag="li"
+          type="button"
+          class="navbar-nav ms-4"
+          >Certificates
+        </router-link>
+        <router-link
           :to="{ name: 'contacts' }"
           active-class="active"
           tag="li"

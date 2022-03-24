@@ -6,22 +6,41 @@ body {
 #home,
 #about,
 #portfolio,
-#contacts {
+#contacts,
+#certs {
   height: 100vh;
   background-size: cover;
   position: relative;
   color: whitesmoke;
-  animation: slideInDown;
+}
+#home {
+  animation: fadeIn;
   animation-duration: 1.5s;
 }
-#home,
+#about {
+  animation: rollIn;
+  animation-duration: 1.5s;
+}
 #portfolio {
-  animation: lightSpeedInRight;
+  animation: rubberBand;
   animation-duration: 1.5s;
 }
-#about,
-#contacts {
+#certs {
   animation: lightSpeedInLeft;
+  animation-duration: 1.5s;
+}
+#certs img {
+  margin: 100px auto;
+  width: 50%;
+  height: 50%;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 5rem;
+  height: 5rem;
+}
+#contacts {
+  animation: lightSpeedInRight;
   animation-duration: 1.5s;
 }
 #about p {
@@ -60,6 +79,9 @@ body {
   background: url("../images/portfolio.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
+}
+#certs {
+  background: url("../images/certs.jpg");
 }
 .contacts {
   background: url("../images/contacts.jpeg");

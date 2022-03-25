@@ -9,6 +9,7 @@
       <li data-bs-target="#certs" data-bs-slide-to="5"></li>
       <li data-bs-target="#certs" data-bs-slide-to="6"></li>
       <li data-bs-target="#certs" data-bs-slide-to="7"></li>
+      <li data-bs-target="#certs" data-bs-slide-to="8"></li>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active" data-interval="1000">
@@ -65,6 +66,13 @@
           src="../images/cert8.png"
           class="d-block w-70"
           alt="DataCamp Intro to Shell"
+        />
+      </div>
+      <div class="carousel-item" data-interval="1000">
+        <img
+          src="../images/cert9.png"
+          class="d-block w-70"
+          alt="DataCamp Intro to SQL"
         />
       </div>
     </div>

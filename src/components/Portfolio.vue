@@ -102,11 +102,13 @@
                     <a
                       href="https://github.com/k1lgor/Todo-App"
                       class="btn btn-success"
+                      target="_blank"
                       >GitHub</a
                     >
                     <a
                       href="http://beneficial-planes.surge.sh"
                       class="btn btn-success"
+                      target="_blank"
                       >Link</a
                     >
                   </div>
@@ -128,6 +130,7 @@
                     <a
                       href="https://github.com/k1lgor/wifi-dos"
                       class="btn btn-success"
+                      target="_blank"
                       >GitHub</a
                     >
                   </div>
@@ -149,11 +152,13 @@
                     <a
                       href="https://github.com/k1lgor/statistics"
                       class="btn btn-success"
+                      target="_blank"
                       >GitHub</a
                     >
                     <a
                       href="https://manutd-stats.netlify.app"
                       class="btn btn-success"
+                      target="_blank"
                       >Link</a
                     >
                   </div>
@@ -175,6 +180,7 @@
                     <a
                       href="https://github.com/k1lgor/linux-update"
                       class="btn btn-success"
+                      target="_blank"
                       >GitHub</a
                     >
                   </div>
@@ -196,11 +202,13 @@
                     <a
                       href="https://github.com/k1lgor/nuxtjs-project"
                       class="btn btn-success"
+                      target="_blank"
                       >GitHub</a
                     >
                     <a
                       href="https://planets-nuxtjs.netlify.app"
                       class="btn btn-success"
+                      target="_blank"
                       >Link</a
                     >
                   </div>

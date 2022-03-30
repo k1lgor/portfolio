@@ -62,28 +62,21 @@
         <img
           src="../images/cert7.png"
           class="d-block w-70"
-          alt="DataCamp Intro to Python"
-        />
-      </div>
-      <div class="carousel-item" data-interval="1000">
-        <img
-          src="../images/cert11.png"
-          class="d-block w-70"
-          alt="Intermediate Python"
+          alt="Intro to Python"
         />
       </div>
       <div class="carousel-item" data-interval="1000">
         <img
           src="../images/cert12.png"
           class="d-block w-70"
-          alt="Python Data Science Toolbox Part 1"
+          alt="Intermediate Python"
         />
       </div>
       <div class="carousel-item" data-interval="1000">
         <img
-          src="../images/cert8.png"
+          src="../images/cert13.png"
           class="d-block w-70"
-          alt="DataCamp Intro to Shell"
+          alt="Python Data Science Toolbox Part 1"
         />
       </div>
       <div class="carousel-item" data-interval="1000">
@@ -91,6 +84,13 @@
           src="../images/cert9.png"
           class="d-block w-70"
           alt="DataCamp Intro to SQL"
+        />
+      </div>
+      <div class="carousel-item" data-interval="1000">
+        <img
+          src="../images/cert8.png"
+          class="d-block w-70"
+          alt="DataCamp Intro to Shell"
         />
       </div>
       <div class="carousel-item" data-interval="1000">

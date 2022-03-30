@@ -13,6 +13,7 @@
       <li data-bs-target="#certs" data-bs-slide-to="9"></li>
       <li data-bs-target="#certs" data-bs-slide-to="10"></li>
       <li data-bs-target="#certs" data-bs-slide-to="11"></li>
+      <li data-bs-target="#certs" data-bs-slide-to="12"></li>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active" data-interval="1000">
@@ -69,6 +70,13 @@
           src="../images/cert11.png"
           class="d-block w-70"
           alt="Intermediate Python"
+        />
+      </div>
+      <div class="carousel-item" data-interval="1000">
+        <img
+          src="../images/cert12.png"
+          class="d-block w-70"
+          alt="Python Data Science Toolbox Part 1"
         />
       </div>
       <div class="carousel-item" data-interval="1000">

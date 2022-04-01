@@ -1,17 +1,18 @@
 <template>
-  <section class="portfolio" id="portfolio">
-    <div class="container">
-      <div class="d-flex justify-content-center">
-        <div class="col-lg-8 mt-4">
-          <div class="container pt-5">
+  <div id="portfolio" class="portfolio">
+    <div class="d-flex justify-content-center">
+      <div class="col-lg-10 mt-5">
+        <div class="d-flex justify-content-center mt-2">
+          <div class="container col-lg-5">
             <codersrank-summary
               username="k1lgor"
               layout="auto"
+              class="card"
             ></codersrank-summary>
           </div>
-          <div class="card">
+          <div class="container card col-lg-7">
             <div class="card-body">
-              More familier with
+              <p>More familier with</p>
               <img
                 src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"
                 alt="linux"
@@ -53,7 +54,7 @@
                 alt="javascript"
               />
               <hr />
-              Basic knowledge of
+              <p>Basic knowledge of</p>
               <img
                 src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"
                 alt="typescript"
@@ -84,8 +85,11 @@
               />
             </div>
           </div>
-          <div class="d-flex justify-content-center">
-            <div class="col-lg-4 mt-4">
+        </div>
+        <div class="mt-4">
+          <div class="row">
+            <!-- <div class="d-flex justify-content-center"> -->
+            <div class="col-lg-3">
               <div class="card portfolio-content">
                 <img
                   class="card-img-top"
@@ -115,7 +119,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 mt-4 m-4">
+            <div class="col-lg-3">
               <div class="card portfolio-content">
                 <img
                   class="card-img-top"
@@ -137,7 +141,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 mt-4 m-4">
+            <div class="col-lg-3">
               <div class="card portfolio-content">
                 <img
                   class="card-img-top"
@@ -165,7 +169,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 mt-4 m-4">
+            <div class="col-lg-3">
               <div class="card portfolio-content">
                 <img
                   class="card-img-top"
@@ -187,7 +191,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 mt-4 m-4">
+            <!-- </div> -->
+            <div class="col-lg-3 mt-3">
               <div class="card portfolio-content">
                 <img
                   class="card-img-top"
@@ -219,7 +224,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>

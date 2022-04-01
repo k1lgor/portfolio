@@ -1,5 +1,5 @@
 <template>
-  <div id="certs" class="carousel slide" data-bs-ride="carousel">
+  <div id="certs" class="carousel slide certs" data-bs-ride="carousel">
     <ol class="carousel-indicators">
       <li data-bs-target="#certs" data-bs-slide-to="0" class="active"></li>
       <li data-bs-target="#certs" data-bs-slide-to="1"></li>

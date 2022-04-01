@@ -1,100 +1,75 @@
 @import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+
 body {
   font-family: "Syne Mono", monospace;
 }
-
 #about {
-  -webkit-animation: zoomInDown;
-          animation: zoomInDown;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
+  animation: zoomInDown;
+  animation-duration: 1.5s;
 }
-
 #about p {
   font-size: 1.25rem;
 }
-
 #certs {
-  -webkit-animation: zoomInDown;
-          animation: zoomInDown;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
+  animation: zoomInDown;
+  animation-duration: 1.5s;
 }
-
 #certs img {
   margin: 150px auto;
   width: 50%;
   height: 50%;
 }
-
 #contacts {
-  -webkit-animation: fadeIn;
-          animation: fadeIn;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
+  animation: fadeIn;
+  animation-duration: 1.5s;
 }
-
 #embedmap-canvas {
   height: 100%;
   width: 100%;
   max-width: 100%;
 }
-
 #embedmap-canvas img {
   max-width: none !important;
   background: none !important;
   font-size: inherit;
   font-weight: inherit;
 }
-
 #home {
-  -webkit-animation: fadeIn;
-          animation: fadeIn;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
+  animation: fadeIn;
+  animation-duration: 1.5s;
 }
-
 #portfolio {
-  -webkit-animation: zoomInUp;
-          animation: zoomInUp;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
+  animation: zoomInUp;
+  animation-duration: 1.5s;
 }
-
 .about {
   background-image: url("../images/about.jpeg");
   color: whitesmoke;
   height: 100vh;
   background-size: cover;
 }
-
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   width: 5rem;
   height: 5rem;
 }
-
 .card {
   color: black;
   background-color: whitesmoke;
   text-align: left;
 }
-
 .certs {
-  background-image: url("../images/certs.jpg");
-  background-size: cover;
-  height: 100vh;
+    background-image: url("../images/certs.jpg");
+    background-size: cover;
+    height: 100vh;
 }
-
 .codersrank {
   content: url("https://api.iconify.design/simple-icons/codersrank.svg?color=%230d6efd&width=36&height=36");
 }
-
 codersrank-summary {
   --badge-bg-color: darkgray;
   --bg-color: whitesmoke;
 }
-
 .contacts {
   background-image: url("../images/contacts.jpeg");
   max-width: 100%;
@@ -104,17 +79,14 @@ codersrank-summary {
   height: 100vh;
   background-size: cover;
 }
-
 .frame {
   height: 100%;
   width: 100%;
   border: 0;
 }
-
 .hero-desc {
   font-size: 2rem;
 }
-
 .hero-text {
   text-align: right;
   position: absolute;
@@ -123,36 +95,34 @@ codersrank-summary {
   transform: translate(-50%, -50%);
   color: whitesmoke;
 }
-
 .hero-title {
   font-size: 4.5rem;
 }
-
 .home-image {
   background-image: url("../images/home.jpeg");
   height: 100vh;
   background-size: cover;
 }
-
 .navbar-nav {
   color: whitesmoke;
   font-size: 1.3rem;
 }
-
 .navbar-nav {
   transition: transform 250ms;
 }
-
 .navbar-nav:hover {
   transform: translateY(-10px);
 }
-
 .portfolio {
   background-image: url("../images/portfolio.jpeg");
   background-size: cover;
 }
-
 .social-icons {
   font-size: 36px;
   cursor: pointer;
-}/*# sourceMappingURL=style.css.map */
+}
+
+
+
+
+

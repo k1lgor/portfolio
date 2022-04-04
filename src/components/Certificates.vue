@@ -16,6 +16,7 @@
       <li data-bs-target="#certs" data-bs-slide-to="12"></li>
       <li data-bs-target="#certs" data-bs-slide-to="13"></li>
       <li data-bs-target="#certs" data-bs-slide-to="14"></li>
+      <li data-bs-target="#certs" data-bs-slide-to="15"></li>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active" data-interval="1000">
@@ -92,7 +93,14 @@
         <img
           src="../images/cert15.png"
           class="d-block w-70"
-          alt="Python Fundamentals"
+          alt="Python Fundamentals Track"
+        />
+      </div>
+      <div class="carousel-item" data-interval="1000">
+        <img
+          src="../images/cert16.png"
+          class="d-block w-70"
+          alt="Python OOP"
         />
       </div>
       <div class="carousel-item" data-interval="1000">

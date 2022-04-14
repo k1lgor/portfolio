@@ -46,7 +46,7 @@
             </button>
           </form>
           <a
-            href="https://drive.google.com/file/d/1e4E0Bb_TkxQ9taT0UZOjlOd7pSRpNZoq/view?usp=sharing"
+            href="https://drive.google.com/file/d/1ppj9CZw8oZXYV6VXOA6EJPSS8UFZurim/view?usp=sharing"
             target="_blank"
           >
             <button class="btn btn-success mt-3">My CV</button>

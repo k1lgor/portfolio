@@ -93,24 +93,18 @@
               <div class="card portfolio-content">
                 <img
                   class="card-img-top"
-                  src="../images/todo-app.gif"
-                  alt="Todo App"
+                  src="../images/art.gif"
+                  alt="Art Portfolio"
                   style="width: 100%"
                 />
                 <div class="card-body">
-                  <h4 class="card-title">Todo App</h4>
+                  <h4 class="card-title">Art Portfolio</h4>
                   <p class="card-text">
-                    Simple Todo App with Drag and Drop option
+                    Simple Art Portfolio using HTML/CSS/JS
                   </p>
                   <div class="text-center">
                     <a
-                      href="https://github.com/k1lgor/Todo-App"
-                      class="btn btn-success"
-                      target="_blank"
-                      >GitHub</a
-                    >
-                    <a
-                      href="http://beneficial-planes.surge.sh"
+                      href="https://valentinas-art.vercel.app"
                       class="btn btn-success"
                       target="_blank"
                       >Link</a
@@ -212,6 +206,36 @@
                     >
                     <a
                       href="https://planets-nuxtjs.netlify.app"
+                      class="btn btn-success"
+                      target="_blank"
+                      >Link</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mt-3">
+              <div class="card portfolio-content">
+                <img
+                  class="card-img-top"
+                  src="../images/todo-app.gif"
+                  alt="Todo App"
+                  style="width: 100%"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Todo App</h4>
+                  <p class="card-text">
+                    Simple Todo App with Drag and Drop option
+                  </p>
+                  <div class="text-center">
+                    <a
+                      href="https://github.com/k1lgor/Todo-App"
+                      class="btn btn-success"
+                      target="_blank"
+                      >GitHub</a
+                    >
+                    <a
+                      href="http://beneficial-planes.surge.sh"
                       class="btn btn-success"
                       target="_blank"
                       >Link</a

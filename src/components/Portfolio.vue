@@ -244,6 +244,42 @@
                 </div>
               </div>
             </div>
+            <div class="col-lg-3 mt-3">
+              <div class="card portfolio-content">
+                <img
+                  class="card-img-top"
+                  src="../images/file-sharing.gif"
+                  alt="File Sharing App"
+                  style="width: 100%"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">File Sharing App</h4>
+                  <p class="card-text">
+                    A simple file sharing app with Node, Express, Socket.io
+                  </p>
+                  <div class="text-center">
+                    <a
+                      href="https://github.com/k1lgor/file-sharing-node-app"
+                      class="btn btn-success"
+                      target="_blank"
+                      >GitHub</a
+                    >
+                    <a
+                      href="https://share-files-app.herokuapp.com/"
+                      class="btn btn-success"
+                      target="_blank"
+                      >Sender</a
+                    >
+                    <a
+                      href="https://share-files-app.herokuapp.com/receiver.html"
+                      class="btn btn-success"
+                      target="_blank"
+                      >Receiver</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

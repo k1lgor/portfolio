@@ -280,6 +280,36 @@
                 </div>
               </div>
             </div>
+            <div class="col-lg-3 mt-3">
+              <div class="card portfolio-content">
+                <img
+                  class="card-img-top"
+                  src="../images/login-page.gif"
+                  alt="Login Page"
+                  style="width: 100%"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Login page</h4>
+                  <p class="card-text">
+                    A simple login/register page with VueJS, Vuetify
+                  </p>
+                  <div class="text-center">
+                    <a
+                      href="https://github.com/k1lgor/login-page-vuetify"
+                      class="btn btn-success"
+                      target="_blank"
+                      >GitHub</a
+                    >
+                    <a
+                      href="https://login-page-vuetify.vercel.app/"
+                      class="btn btn-success"
+                      target="_blank"
+                      >Link</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

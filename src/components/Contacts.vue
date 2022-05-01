@@ -55,13 +55,13 @@
             <a
               href="https://www.linkedin.com/in/plamen-ivanov-33a851226/"
               target="_blank"
-              ><i class="fab fa-linkedin"></i>
+              ><icon class="fab fa-linkedin"></icon>
             </a>
             <a href="https://github.com/k1lgor" target="_blank"
-              ><i class="fab fa-github"></i>
+              ><icon class="fab fa-github"></icon>
             </a>
             <a href="https://profile.codersrank.io/user/k1lgor" target="_blank"
-              ><i class="codersrank"></i>
+              ><icon class="codersrank"></icon>
             </a>
           </div>
         </div>
